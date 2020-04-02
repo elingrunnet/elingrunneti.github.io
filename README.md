@@ -1,2 +1,2 @@
-# elingrunnex.github.io
+# elingrunnet.github.io
 Billedmanipulation projekt
