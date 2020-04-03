@@ -8,7 +8,7 @@ img = loadImage('shanghai123.jpg');
 
 function setup(){
 
-createCanvas(2*400,770);
+createCanvas(2*1200,870);
 
 }
 
@@ -24,9 +24,9 @@ function sortHvid(){
 
 image(img,0,0);
 
-for (let i=mouseX-20;i<mouseX+20; i += 1){
+for (let i=mouseX-20;i<mouseX+20; i += 2){
 
-for (let j=mouseY-20;j<mouseY+20; j += 1){
+for (let j=mouseY-20;j<mouseY+20; j += 2){
 
 let c = img.get(i,j);
 
@@ -34,7 +34,7 @@ fill((c[0]+c[1]+c[2])/(3));
 
 noStroke();
 
-rect(i,j,1,1);
+rect(i,j,2,2);
 
 }
 
